@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/api.css">
+</head>
+
+<body>
+
+    <p id="content">
+        Selecione o texto que deseja ouvir.
+    </p>
+
+    <div vw class="enabled" id="vlibras_btt">
+
+        <div vw-access-button class="active"></div>
+
+        <div vw-plugin-wrapper>
+
+            <div class="vw-plugin-top-wrapper"></div>
+
+        </div>
+
+    </div>
+
+    <script src="js/vlibras-plugin.js"></script>
+
+    <script defer>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <div class="box_api" id="api">
+        <button id="exit_api"><i class="fa-solid fa-circle-xmark"></i></button>
+        <button id="open_api"><img src="img/acessivel.jpg" id="img_open_api"></button>
+        <div class="head">
+
+        </div>
+        <button class="btt_speak" id="speakButton"><i class="fa-solid fa-microphone"></i>
+            <p>Ouvir</p>
+        </button>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="blu-logo ml-5"></div>
+        <a class="navbar-brand ml-2" href="#"><b class="color-title">Adapt</b>Tech<b class="color-title">Hub</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mx-auto">
+                <!-- Adicionado mx-auto aqui -->
+                <li class="nav-item active">
+                    <a class="nav-link" id="bg-font-active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="bg-font" href="#">Contate-nos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="bg-font" href="#">Sobre nós</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0 mr-5">
+                <a class="btn btn-primary mr-2" href="#" role="button"><i class="fa-brands fa-facebook"></i></a>
+                <a class="btn btn-primary" href="#" role="button"><i class="fa-brands fa-instagram"></i></a>
+            </form>
+        </div>
+    </nav>
+    <div class="jumbotron text-center mt-5">
+        <h1 class="display-4">Olá, bem vindo ao AdaptTechHub</h1>
+        <p class="lead">Este site é um trabalho da aula de português, feito com o obejtivo de fazer um texto hibrido que contenham como palavras chame tecnologia e comunicação.</p>
+        <hr class="my-4 divisor-blu">
+        <p>Integrantes da dupla estão a seguir.</p>
+    </div>
+
+    <br>
+    <div class="container marketing">
+        <hr class="divisor-blu mt-3 mb-3">
+        <br>
+        <div class="row text-center">
+            <div class="col-lg-6">
+                <img class="rounded-circle" src="https://pbs.twimg.com/media/EOr13jlVUAAChlV.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>Rafael Fassa</h2>
+                <p>Responsável pelo design.</p>
+                <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+
+            <div class="col-lg-6">
+                <img class="rounded-circle" src="https://i.pinimg.com/280x280_RS/14/ab/2e/14ab2e8f0366e74d9264d04046da2163.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>Vitor Miguel</h2>
+                <p>Respondesável pelos textos e códigos JS inseridos na página.
+                </p>
+                <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+        </div>
+        <br>
+        <hr class="divisor-blu mt-3 mb-3">
+        <br>
+    </div>
+
+    <div class="container marketing">
+        <div class="container-fluid">
+            <div class="col-12">
+                <h2>O que é acessibilidade na internet.</h2>
+                <div class="blu-logo2"></div>
+                <br>
+                <h4 class="text">A acessibilidade na internet refere-se à prática de tornar os recursos da web acessíveis e utilizáveis por todas as pessoas, independentemente de suas habilidades físicas ou cognitivas. Isso significa garantir que os sites, aplicativos
+                    e outros conteúdos online sejam projetados e desenvolvidos de forma a permitir que pessoas com deficiências possam perceber, entender, navegar e interagir com eles de maneira eficaz.
+
+                    </br>
+                    </br>Alguns aspectos da acessibilidade na internet incluem:</br>
+                    </br>
+
+                    <ul>
+                        <li> <b>Acessibilidade para pessoas com deficiência visual: </b>Isso pode envolver o uso de tecnologias de leitura de tela, descrições de texto alternativo para imagens e gráficos, garantindo que o conteúdo seja navegável sem depender
+                            exclusivamente de cores, entre outras práticas.
+                        </li>
+                        </br>
+                        </br>
+                        <li><b>Acessibilidade para pessoas com deficiência auditiva:</b> Isso pode incluir legendas em vídeos, transcrições de áudio e o uso de linguagem clara e simples em vez de depender exclusivamente de conteúdo de áudio.</li>
+                        </br>
+                        </br>
+                        <li><b>Acessibilidade para pessoas com deficiência motora:</b> Isso pode envolver a disponibilização de teclas de acesso rápido, garantindo que os controles do site possam ser operados por meio de diferentes dispositivos de entrada,
+                            como teclado, mouse ou dispositivos de assistência, e evitando o uso excessivo de movimentos precisos do mouse.</li>
+                        </br>
+                        </br>
+                        <li><b>Acessibilidade para pessoas com deficiências cognitivas: </b>Isso pode envolver a organização clara do conteúdo, o uso de linguagem simples e direta, e a minimização de distrações para facilitar a compreensão e a interação.</li>
+                        </br>
+                        </br>
+                        <li> <b>Acessibilidade para pessoas com deficiências de aprendizado:</b> Isso pode incluir a disponibilidade de recursos de aprendizado adaptativos, como glossários, instruções passo a passo e feedback claro.
+                        </li>
+                        </br>
+                    </ul>
+
+                    Em suma, a acessibilidade na internet visa garantir que todos, independentemente de suas capacidades individuais, tenham a oportunidade de acessar e utilizar os recursos online de maneira eficaz e equitativa.
+                </h4>
+                <br>
+                <hr class="divisor-blu mt-3 mb-3">
+                <br>
+                <h2>Como ela ajuda na comunicação.</h2>
+                <div class="blu-logo2"></div>
+                <br>
+                <h4 class="text mb-3">A acessibilidade na internet desempenha um papel fundamental na melhoria da comunicação, pois permite que um público mais amplo tenha acesso e compreensão dos conteúdos online.
+                    </br>
+                    </br>Aqui estão algumas maneiras pelas quais a acessibilidade na internet ajuda na comunicação:
+                    </br>
+                    </br>
+
+                    <ul>
+                        <li><b>Inclusão de públicos diversos: </b>Ao tornar os recursos online acessíveis para pessoas com diferentes tipos de deficiências (visual, auditiva, motora, cognitiva, etc.), a comunicação online se torna mais inclusiva e alcança
+                            um público mais diversificado.</li>
+                        </br>
+                        </br>
+                        <li><b>Facilitação da compreensão:</b> Recursos como descrições de imagens para pessoas com deficiência visual, legendas para pessoas com deficiência auditiva e linguagem simples para pessoas com dificuldades de compreensão ajudam
+                            a garantir que o conteúdo seja compreendido por uma variedade de públicos.
+                        </li>
+                        </br>
+                        </br>
+                        <li><b>Melhoria da usabilidade: </b>Acessibilidade na internet não apenas torna o conteúdo disponível, mas também melhora a forma como ele é apresentado e interagido. Isso beneficia todos os usuários, não apenas aqueles com deficiências,
+                            resultando em uma experiência mais intuitiva e eficaz para todos.
+                        </li>
+                        </br>
+                        </br>
+                        <li><b>Promoção da igualdade de acesso: </b>Garantir que todos possam acessar e participar da comunicação online promove a igualdade de acesso à informação, oportunidades e participação na sociedade digital.
+                        </li>
+                        </br>
+                        </br>
+                        <li>
+                            <b>Cumprimento de regulamentações e padrões: </b>Muitos países têm regulamentações que exigem que os recursos online sejam acessíveis para pessoas com deficiência. Ao cumprir essas regulamentações e seguir padrões de acessibilidade,
+                            as organizações garantem que estão comunicando de forma eficaz e ética com todos os públicos.
+                        </li>
+                        </br>
+                    </ul>
+
+                    Em resumo, a acessibilidade na internet é fundamental para promover uma comunicação online mais inclusiva, eficaz e igualitária, permitindo que pessoas com diferentes habilidades e necessidades possam acessar, compreender e interagir com o conteúdo online.
+                </h4>
+                <br>
+                <hr class="divisor-blu mt-3 mb-3">
+                <br>
+                <h2>Tecnologias que ajudaram na acessibilidade digital.</h2>
+                <div class="blu-logo2"></div>
+                <br>
+                <h4 class="text mb-3">
+                    Várias tecnologias têm desempenhado um papel crucial no avanço da acessibilidade digital ao longo dos anos. Aqui estão algumas delas: </br>
+                    </br>
+
+                    <ul>
+                        <li><b>Leitores de tela:</b> Esses programas de software convertem texto em fala ou em Braille, permitindo que pessoas com deficiência visual possam acessar conteúdos online. Exemplos incluem o JAWS (Job Access With Speech) e o NVDA
+                            (NonVisual Desktop Access).</li>
+                        </br>
+                        </br>
+                        <li><b> Ampliadores de tela: </b> ferramentas aumentam o tamanho do texto e dos elementos visuais na tela, tornando-os mais legíveis para pessoas com baixa visão. Exemplos incluem o ZoomText e o macOS Zoom.</li>
+                        </br>
+                        </br>
+                        <li><b>Recursos de legenda: </b> em vídeos e transcrições de áudio são essenciais para pessoas com deficiência auditiva ou surdez. Tecnologias como o YouTube Automatic Captions e o Google Meet Live Captions estão ajudando a tornar
+                            os conteúdos de vídeo mais acessíveis.</li>
+                        </br>
+                        </br>
+                        <li><b>Teclas de atalho e navegação por teclado:</b> Muitas pessoas com deficiências motoras podem ter dificuldades em usar um mouse. Recursos como teclas de acesso rápido e a capacidade de navegar por um site usando apenas o teclado
+                            são fundamentais para esses usuários.</li>
+                        </br>
+                        </br>
+                        <li><b>Ferramentas de reconhecimento de voz:</b> Essas tecnologias permitem que os usuários controlem computadores e dispositivos móveis por meio de comandos de voz, o que pode ser útil para pessoas com deficiências motoras ou dificuldades
+                            de digitação. Exemplos incluem o Google Assistant e o Dragon NaturallySpeaking.</li>
+                        </br>
+                        </br>
+                        <li><b>Contraste e personalização visual: </b> que permitem aos usuários ajustar o contraste, as cores e outros aspectos visuais de uma página da web podem beneficiar pessoas com deficiências visuais ou sensibilidades a determinadas
+                            cores.</li>
+                        </br>
+                        </br>
+                        <li><b>Padrões e diretrizes de acessibilidade:</b> Padrões como o Web Content Accessibility Guidelines (WCAG) estabelecem critérios e recomendações para tornar os conteúdos online mais acessíveis. O cumprimento desses padrões é facilitado
+                            por ferramentas de verificação de acessibilidade, como o axe Accessibility Checker e o Wave.</li>
+                        </br>
+                        </br>
+                    </ul>
+
+                    Essas são apenas algumas das tecnologias que têm ajudado a melhorar a acessibilidade digital. À medida que a tecnologia continua a evoluir, é esperado que mais avanços ocorram para garantir que todos possam acessar e utilizar os recursos online de forma
+                    eficaz e equitativa.
+                </h4>
+                <br>
+                <hr class="divisor-blu mt-3 mb-3">
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row ml-5">
+                <div class="col-4 mt-4">
+                    <h4>Contato</h4>
+                    <div class="blu-logo3 mb-4"></div>
+                    <p><b>Telefone:</b> (14)40028922</p>
+                    <p><b>Email</b> fulano@.com</p>
+                    <p><b>WhatsApp:</b> (14)40028922</p>
+                    <br>
+                </div>
+                <div class="col-4 mt-4">
+                    <form class="form-group">
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="nome">Nome Completo:</label>
+                                <input type="text" class="form-control" id="nome" name="nome" required>
+                            </div>
+                            <div class="col-6">
+                                <label for="email">E-mail:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <br>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea rows="2" cols="50" class="form-control" id="mensagem" name="mensagem" form="contato"></textarea>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-4 mt-4">
+                    <div class="mt-5 ml-5">
+                        <a class="btn btn-primary mr-2" href="#" role="button"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="btn btn-primary" href="#" role="button"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center text-muted small">Copyright &copy; 2024 - Todos os direitos reservados.</div>
+        <div class="text-center text-muted small">Desenvolvido por: RafaelFassa e VitorMiguel</div>
+        <br>
+    </div>
+
+
+
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/8833acc5cb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
